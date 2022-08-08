@@ -7,6 +7,7 @@ import { AuthModule } from './auth/auth.module';
 
 import { OrdersModule } from './orders/orders.module';
 import { BookModule } from './books/book.module';
+import { CouponsModule } from './coupons/coupons.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { BookModule } from './books/book.module';
     // AuthModule,
     // BookModule,
     // OrdersModule,
+    CouponsModule,
     AppRoutingModule
   ],
   providers: [],
